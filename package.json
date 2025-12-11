@@ -1,21 +1,21 @@
 {
-  "name": "cookie-convo-server",
+  "name": "facebook-api-login-tool",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Facebook API Login Tool (Console Based)",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "python3 main.py",
+    "run": "python3 main.py"
   },
-  "engines": {
-    "node": "18.x"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "axios": "^1.6.2",
-    "body-parser": "^1.20.2",
-    "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "fca-mafiya": "latest",
-    "ws": "^8.15.1",
-    "uuid": "^9.0.0"
-  }
+  "keywords": [
+    "facebook",
+    "api",
+    "login",
+    "token",
+    "cookie"
+  ],
+  "author": "Yuvi",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
 }
